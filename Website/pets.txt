@@ -1,0 +1,14 @@
+1:Doudou Lapin:cat:persian:female:young:cats:no:Evil:Smartie:gassnaja@gmail.com
+11:DL123:dog:german-shepherd:male:middle:cats,dogs:no:Very fun and fluffy:Ginger:user1@gmail.com
+111:DoudouLapin:cat:angora,siamese:female:old::yes:Doesn't like other cats:Poppy:anonymous@gmail.com
+1111:Womp4786:dog:german-shepherd:female:old:dogs:yes:Friendly and cute:Bobby:bobby@gmail.com
+1112:Womp4786:cat:angora,persian:male:middle:cats,dogs:no:Doesn't like children:nice:hello@gmail.com
+11121:MonkeyDLuffy:dog:chihuahua:male:old::no:Very annoying. No one wants him.:clown:user5837@gmail.com
+11122:MonkeyDLuffy:cat:angora:female:young:dogs:no:Likes dogs but not cats.:catty:hello@gmail.com
+11123:MonkeyDLuffy:dog:german-shepherd,golden-retriever:female:young:dogs:no:Very caring but sometimes bites.:Non:bye@gmail.com
+111231:A1B2C3:dog:chihuahua:male:middle:dogs:no:Might get pregnant:doggy:doggy_lover@gmail.com
+1112311:DL123:cat:siamese:female:young:dogs:no:Hello _ A:Wee_:hello2@gmail.com
+11123111:DoudouLapin:dog:golden-retriever:female:old:dogs:yes:Very Old:Cake:a@gmail.com
+111231111:DL123:dog:german-shepherd:female:middle:cats,dogs:yes:Pouffy:grass:hello2@gmail.com
+111231112:DL123:cat:persian:male:young:cats,dogs:yes:Friendly:chocolate:bye@gmail.com
+1112311121:WEE123:cat:persian:female:young:cats:yes:Very kind. the best.:Pickle:happy@gmail.com

@@ -1,0 +1,104 @@
+<!-- Written by Ghassan Naja - ID : 40264348 -->
+
+<!DOCTYPE html>
+
+	<html lang = "en">
+
+	<head>
+		<title>Find</title>
+		<link rel = "stylesheet" href = "/Q4_styles.css">
+		<meta charset = "UTF-8">
+		<meta name="page" content="find">
+		<meta name = "viewport" content = "width=device-width, initial-scale=1">
+		<script src = "/Q4.js"></script>
+		<script src = "/find_pet.js"></script>
+	</head>
+	
+	
+	<body>
+		
+		<div class = "content">
+		
+			<main>
+				<h1>Find a Pet</h1>
+				<h3>Press Submit to search with the given criteria, or press 'Browse all pets' to view all available pets.</h3>
+				<form id = "find-pet" method = "post" action = '/search-pet'>
+					<input type="text" value="no" id="showall" name = "showall" hidden>
+					<p>
+						<label class = "prompt">Looking for a : </label>
+						<input type = "radio" name = "pet-type" value = "cat"><label>Cat</label>
+						<input type = "radio" name = "pet-type" value = "dog"><label>Dog</label>
+					</p>
+					
+					<p>
+						<label class = "prompt">Preferred cat breed : </label>
+						<label>
+							<select name = "cat-breed">
+								<option value = "angora">Angora</option>
+								<option value = "siamese">Siamese</option>
+								<option value = "persian">Persian</option>
+								<option value = "doesntmatter">Doesn't matter</option>
+							</select>
+						</label>
+					</p>
+					
+					<p>
+						<label class = "prompt">Preferred dog breed : </label>
+						<select name = "dog-breed">
+							<option value = "chihuahua">Chihuahua</option>
+							<option value = "german-shepherd">German Shepherd</option>
+							<option value = "golden-retriever">Golden Retriever</option>
+							<option value = "doesntmatter">Doesn't matter</option>
+						</select>
+					</p>
+					
+					<p>
+						<label class = "prompt">Prefered age : </label>
+						<select name = "age">
+							<option value = "young">Young</option>
+							<option value = "middle">Middle Aged</option>
+							<option value = "old">Old</option>
+							<option value = "doesntmatter">Doesn't matter</option>
+						</select>
+					</p>
+					
+					<p>
+						<label class = "prompt">Prefered gender : </label>
+						<select name = "gender">
+							<option value = "male">Male</option>
+							<option value = "female">Female</option>
+							<option value = "doesntmatter">Doesn't matter</option>
+						</select>
+					</p>
+					
+					<p>
+						<label class = "prompt">Needs to get along with other : </label>
+						<input type = "checkbox" name = "get-along" value = "cats"><label>Other cats</label>
+						<input type = "checkbox" name = "get-along" value = "dogs"><label>Other dogs</label>
+						<input type = "checkbox" name = "get-along" value = "children"><label>Children</label>
+					</p>
+					
+					<p>
+							<label class = "label-bold">Submit to find pets that match your preferences.</label><br><br>
+							<input type = "reset" value = "Reset">
+							<input type = "submit" value = "Submit" onclick="getFindData(event)">
+							<button onclick="showAllPets(event)">Browse all pets</button>
+
+					</p>
+					
+				</form>
+			</main>
+		</div>
+
+	</body>
+
+</html>
+
+
+
+
+
+
+
+
+

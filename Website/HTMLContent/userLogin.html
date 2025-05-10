@@ -1,0 +1,19 @@
+
+
+
+<div class = "user-info" id="user-info">
+
+  <h1>Sign In</h1>
+  <label>You need to sign in before registering new pets</label><br>
+  <label id="wrong-password" hidden>Wrong Password</label><br>
+
+  <form id = "login-form" action = "/login" method = "post">
+
+    <label class="prompt"><input type = "text" name = "username" id = "username" placeholder = "Username" required></label><br>
+    <label class="prompt"><input type = "password" name = "password" id = "password" placeholder = "Password" required></label>
+    <br>
+    <button name = "login" id = "login" onclick="submitLogin(event)">Sign In</button>
+
+  </form>
+
+</div>

@@ -1,0 +1,75 @@
+<h1>Give away a pet</h1>
+<h2 id="greeting">Hello</h2>
+<form id = "giveaway" method = "post" action = "/submit-giveaway-form">
+
+  <label class = "prompt">Cat or Dog?</label>
+  <label><input type = "radio" name = "animal-type" value = "cat">Cat</label>
+  <label><input type = "radio" name = "animal-type" value = "dog">Dog</label>
+
+  <br><br>
+
+  <label class = "prompt">Breed : (mixed breed allowed)</label>
+  <fieldset>
+    <legend>Cat breeds</legend>
+    <label><input type = "checkbox" value = "angora" name = "cat-breed" class = "cat-breed">Angora</label>
+    <label><input type = "checkbox" value = "siamese" name = "cat-breed" class = "cat-breed">Siamese</label>
+    <label><input type = "checkbox" value = "persian" name = "cat-breed" class = "cat-breed">Persian</label>
+  </fieldset>
+
+  <br>
+
+  <fieldset>
+    <legend>Dog breeds</legend>
+    <label><input type = "checkbox" value = "chihuahua" name = "dog-breed" class = "dog-breed">Chihuahua</label>
+    <label><input type = "checkbox" value = "german-shepherd" name = "dog-breed" class = "dog-breed">German Shepherd</label>
+    <label><input type = "checkbox" value = "golden-retriever" name = "dog-breed" class = "dog-breed">Golden Retriever</label>
+  </fieldset>
+
+  <p>
+
+    <label class = "prompt">Age : </label>
+    <select name = "age">
+      <option value = "young">Young</option>
+      <option value = "middle">Middle Aged</option>
+      <option value = "old">Old</option>
+    </select>
+
+  </p>
+
+  <p>
+    <label class = "prompt">Gender</label>
+    <label><input type = "radio" name = "gender" value = "male">Male</label>
+    <label><input type = "radio" name = "gender" value = "female">Female</label>
+  </p>
+
+  <p>
+    <label class = "prompt">Gets along with other : </label>
+    <label><input type = "checkbox" value = "cats" name = "gets-along">cats</label>
+    <label><input type = "checkbox" value = "dogs" name = "gets-along">dogs</label>
+  </p>
+
+  <p>
+    <label class = "prompt">Suitable for a family with children : </label>
+    <label><input type = "radio" value = "yes" name = "suitable-children">Yes</label>
+    <label><input type = "radio" value = "no" name = "suitable-children">No</label>
+  </p>
+
+  <p>
+    <label>Comments :</label><br><textarea name = "comment" class = "comment-tb"></textarea>
+  </p>
+
+  <p>
+    <label>Pet's previous name : </label><input type = "text" name = "prev-name">
+  </p>
+
+  <p>
+    <label>Owner's email : </label><input type = "text" name = "owner-email">
+  </p>
+
+  <p>
+    <label class = "label-bold">Thank you for your time!</label><br><br>
+    <input type = "reset" value = "Reset">
+    <button class="special-button" onclick="giveaway(event)">Submit</button>
+  </p>
+
+</form>
